@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0027d5; /* 定義主要顏色變數 */
+  --color-secondary: #6c757d; /* 定義次要顏色變數 */
+}
+
+@layer base {
+  h3 {
+    @apply font-bold text-[28px] text-primary mb-6;
+  }
+  img {
+    @apply max-w-full h-[320px];
+  }
+}
+@layer components {
+  .container {
+    @apply px-3;
+  }
+  .content-title {
+    @apply font-bold text-[20px] text-black mb-3;
+  }
+  .content {
+    @apply font-medium text-[16px] text-black;
+  }
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+}
