@@ -13,7 +13,7 @@ const Blog = () => {
 
       {/* ---------- 內文區域 ---------- */}
       <main className="sm:flex sm:flex-col sm:items-center">
-        <div className="flex flex-col container gap-6 mt-16 mb-12 sm:w-[636px]">
+        <div className="flex flex-col gap-6 mt-16 mb-12 sm:max-w-[636px] px-4">
           {/* 前言 */}
           <div>
             <h3>前言</h3>
@@ -26,12 +26,12 @@ const Blog = () => {
           <img
             src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content1.png?raw=true"
             alt="computer"
-            className="mt-6"
+            className="w-full h-auto object-cover mt-6"
           />
 
           <div>
             <h3>打好基礎：HTML、CSS、JavaScript</h3>
-            <p className="content-title">HTML 與語意化</p>
+            <h4 className="content-title">HTML 與語意化</h4>
             <p className="content">
               為何重要：HTML 是網頁結構的根基，語意化寫法（如 header, main,
               footer 等）能讓網頁更具可維護性與 SEO 效益。
@@ -49,7 +49,7 @@ const Blog = () => {
           </div>
 
           <div>
-            <p className="content-title">CSS 佈局與預處理器</p>
+            <h4 className="content-title">CSS 佈局與預處理器</h4>
             <p className="content">
               為何重要：好看的網站來自穩定的排版與佈局，掌握 Flexbox、Grid
               能讓你隨心所欲打造響應式頁面。
@@ -94,11 +94,11 @@ const Blog = () => {
           <img
             src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content2.png?raw=true"
             alt="computer"
-            className="mt-6"
+            className="w-full h-auto object-cover mt-6"
           />
           <div>
             <h3>擅用主流框架與工具</h3>
-            <p className="content-title">React、Vue 先挑一個</p>
+            <h4 className="content-title">React、Vue 先挑一個</h4>
 
             <p className="content">
               <ul className="list-disc list-inside">
@@ -149,11 +149,11 @@ const Blog = () => {
           <img
             src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content3.png?raw=true"
             alt="meeting"
-            className="mt-6"
+            className="w-full h-auto object-cover mt-6"
           />
           <div>
             <h3>持續練習與參與社群</h3>
-            <p className="content-title">多參加前端挑戰 / Hackathon</p>
+            <h4 className="content-title">多參加前端挑戰 / Hackathon</h4>
 
             <p className="content">
               <ul className="list-disc list-inside">
@@ -181,7 +181,7 @@ const Blog = () => {
             <p className="content">
               <ul className="list-disc list-inside">
                 <li>
-                  參與線上或線下的技術交流、讀書會、Meetup，與同行討論，能啟發更多想法。
+                  參與線上或線下的技術交流、讀書會、Meetup，與同行discussion，能啟發更多想法。
                 </li>
                 <li>
                   有餘力可將學習過程寫成部落格文章或筆記，進一步強化自己的理解。
@@ -192,7 +192,7 @@ const Blog = () => {
           <img
             src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content4.png?raw=true"
             alt="give-up"
-            className="mt-6"
+            className="w-full h-auto object-cover mt-6"
           />
           <div>
             <h3>結語</h3>
